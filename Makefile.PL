@@ -4,5 +4,8 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'Data::Library',
     'VERSION_FROM'	=> 'Library.pm', # finds $VERSION
-    'PREREQ_PM'		=> { }, # e.g., Module::Name => 1.1
+    'PREREQ_PM'		=> {
+			    "Class::Virtual" => 0.03,
+			    "Log::Channel" => 0.6,
+			   },
 );

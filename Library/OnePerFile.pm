@@ -1,6 +1,8 @@
 package Data::Library::OnePerFile;
 use base qw(Data::Library);
 
+$VERSION = '0.2';
+
 my @missing = __PACKAGE__->missing_methods;
 die __PACKAGE__ . ' forgot to implement ' . join ', ', @missing 
   if @missing;

@@ -2,7 +2,7 @@ package Data::Library;
 use base qw(Class::Virtual);
 
 use vars qw($VERSION);
-$VERSION = '0.1';
+$VERSION = '0.2';
 
 =head1 NAME
 
